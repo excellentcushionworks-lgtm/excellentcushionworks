@@ -3,8 +3,8 @@
 <meta charset="utf-8">
 <meta name="theme-color" content="#101215">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Excellent Cushion Works | A New Era of Comfort</title>
-<meta name="description" content="Sofa restoration, chair cushions, bed upholstery and vehicle interiors. Explore our work and contact Excellent Cushion Works.">
+<title>Sofa &amp; Vehicle Upholstery in Sri Lanka | Excellent Cushion Works</title>
+<meta name="description" content="Sofa restoration, replacement cushions and vehicle seat upholstery in Sri Lanka. See real projects and send a photo on WhatsApp for a quote.">
 
 
 
@@ -215,6 +215,21 @@ a:active,button:active{transform:scale(.975)}
 /* Website version: update the matching footer text for each release. */
 header .logo .header-version{display:block;margin-top:4px;color:var(--mute);font:10px/1.4 Arial,sans-serif;letter-spacing:.02em;white-space:nowrap}
 footer .site-version{margin:14px 0 0;text-align:right;font:11px/1.5 ui-monospace,"Courier New",monospace;letter-spacing:.03em;color:var(--mute)}
+.hero-project-caption{margin:.6rem 0 0;color:var(--mute);font-size:.875rem}
+.hero-section .compare-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}
+.hero-section .compare-pair figure{min-width:0;margin:0}
+.hero-section .compare-pair img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain}
+.hero-section .compare-pair figcaption{font-size:.875rem}
+.hero-section .hero-brand-fallback{display:none}
+.editing .hero-section .hero-brand-fallback{display:grid;margin-top:1rem;max-width:12rem}
+@media(max-width:760px){
+  .hero-section{grid-template-columns:minmax(0,1fr);gap:1.25rem}
+  .hero-section .hero-copy{display:block}
+  .hero-section .hero-copy>h1{font-size:clamp(2rem,8vw,3.5rem);margin:.75rem 0}
+  .hero-section .hero-copy>.lead{font-size:1rem;margin-bottom:1rem}
+  .hero-section .hero-visual{grid-column:auto;grid-row:auto;justify-self:stretch;max-width:none}
+  .hero-section .hero-actions{flex-wrap:wrap}
+}
 </style><!-- ECW MOTION ADD-ON START: independent, lightweight presentation layer. -->
 <style id="ecw-motion-styles">
 /* Decorative effects only. No external libraries, images, or application changes. */
@@ -652,6 +667,7 @@ html[data-ecw-motion] #material-dialog[open] { animation:none; }
 .material-swatch[data-stock="out-of-stock"] .swatch-stock-text { color:#ffd697; }
 .material-swatch[data-stock="sold-out"] .swatch-stock-text { color:#ffbdc7; }
 </style>
+  <link rel="canonical" href="https://excellentcushionworks-lgtm.github.io/excellentcushionworks/">
 </head>
 <body>
 
@@ -660,13 +676,21 @@ html[data-ecw-motion] #material-dialog[open] { animation:none; }
 <main id="top">
 <section class="hero-section" aria-labelledby="hero-title">
 <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> CRAFTED IN SRI LANKA. MADE FOR YOU.</p>
-<h1 id="hero-title">A new era<br>of <em>comfort.</em><span class="title-star" aria-hidden="true"><svg class="burst" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></span></h1>
-<p class="lead">Your space. Your style. Reimagined.<br>We turn worn sofas, tired chairs and vehicle seats into your next favourite thing.</p>
-<div class="hero-actions"><a class="btn" href="#work">Explore the transformations <span><svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a><a class="link" id="waHero" href="#" target="_blank" rel="noopener">Let’s chat on WhatsApp <svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div>
-<div class="hero-note"><span class="mini-label">OLD FAVOURITES.<br><b>NEW ENERGY.</b></span><p>New fabric. Fresh cushioning.<br>A finish that feels like you.</p></div></div>
+<h1 id="hero-title">Sofa &amp; vehicle <em>upholstery</em></h1>
+<p class="lead">We restore sofas, chairs and vehicle seats in Sri Lanka. Send a photo to discuss repairs, fabrics and cushioning.</p>
+<div class="hero-actions"><a class="btn" id="waHero" href="https://wa.me/94729700833" target="_blank" rel="noopener">Send a photo for a quote</a><a class="link" href="#work">See our work</a></div>
+</div>
 
-<div class="hero-visual"><div class="photo-index"><span>THE EXCELLENT EDIT</span><span>SRI LANKA / ECW</span></div><div class="heroimg" id="hero" role="img" aria-label="Excellent Cushion Works logo with furniture, vehicle seating and Sri Lankan coastal background"><div class="photo-label"><span class="dot"></span> REAL WORK. REAL TRANSFORMATION.</div></div><div class="photo-caption"><div><small>YOUR SPACE. OUR CRAFT.</small><h3>Furniture &amp; vehicle upholstery.</h3></div><a href="#work" aria-label="Explore our upholstery projects"><svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div><span class="orbit-tag">RE-COVER / REBUILD / RESTORE</span></div>
-
+<div class="hero-visual">
+  <div class="heroimg" id="hero" role="img" aria-label="Excellent Cushion Works brand artwork"></div>
+  <div id="hero-comparison" hidden>
+    <div class="compare-pair">
+      <figure><img id="beforeShot" decoding="async" alt="Carved teak loveseat before restoration"><figcaption>Before</figcaption></figure>
+      <figure><img id="afterShot" decoding="async" alt="Carved teak loveseat with fresh green velvet cushions"><figcaption>After</figcaption></figure>
+    </div>
+    <p class="hero-project-caption">Carved teak loveseat restored with green velvet cushions</p>
+  </div>
+</div>
 </section><div class="ticker" aria-label="Our specialties"><span>SOFA REVIVALS</span><b><svg class="burst" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></b><span>CUSTOM CUSHIONS</span><b><svg class="burst" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></b><span>INTERIOR UPGRADES</span><b><svg class="burst" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></b><span>YOUR NEXT FAVOURITE</span><b><svg class="burst" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></b></div>
 <section id="work">
   <div class="section-top"><p class="eyebrow">01 / THE TRANSFORMATION ARCHIVE</p><span class="tiny">REAL PROJECTS. FRESH PERSPECTIVES.</span></div>
@@ -676,16 +700,16 @@ html[data-ecw-motion] #material-dialog[open] { animation:none; }
   <div class="grid" id="grid"></div><div class="more-wrap"><button class="btn alt" id="more" type="button">Show more projects <span>＋</span></button><p class="note" id="workCount" aria-live="polite"></p></div>
 </section>
 
-<section class="transformation"><div class="transform-copy"><p class="eyebrow">THE GLOW-UP IS REAL</p><h2>Keep the character.<br><em>Change the feeling.</em></h2><p class="lead">A familiar wooden frame. A fresh green velvet finish. See how a new look brings this loveseat back into the room.</p><a class="link" href="#quote">Plan your own transformation <svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div><div class="compare-pair"><figure><img id="beforeShot" loading="lazy" alt="Carved teak loveseat before restoration"><figcaption>01 / BEFORE</figcaption></figure><figure><img id="afterShot" loading="lazy" alt="Carved teak loveseat with fresh green velvet cushions after restoration"><figcaption>02 / AFTER <span><svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></figcaption></figure></div></section><div class="band"><section id="services">
+<div class="band"><section id="services">
   <p class="eyebrow">02 / BUILT AROUND YOUR STYLE</p>
   <h2>Your vision.<br><em>Our craft.</em></h2>
   <p class="lead">A room refresh or a full interior upgrade. Choose the details that make it yours — fabric, colour, cushioning and finish.</p>
   <a class="btn" href="#quote">Ask for a quote &nbsp;<svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
   <div class="services-list">
-    <div class="svc"><small>01</small><div><h3>Sofas &amp; stools</h3><p>Restoration, replacement cushioning and fresh upholstery.</p></div></div>
+    <div class="svc"><small>01</small><div><h3><a class="link" href="sofa-reupholstery.html">Sofa reupholstery</a></h3><p>Restoration, replacement cushioning and fresh upholstery.</p></div></div>
     <div class="svc"><small>02</small><div><h3>Wooden, lobby &amp; wing chairs</h3><p>Comfortable new cushions and covers for home and reception seating.</p></div></div>
     <div class="svc"><small>03</small><div><h3>Beds &amp; headboards</h3><p>Upholstered details that give your bedroom a fresh finish.</p></div></div>
-    <div class="svc"><small>04</small><div><h3>Vehicle seats &amp; interiors</h3><p>Seat rebuilding, new covers and interior upholstery work.</p></div></div>
+    <div class="svc"><small>04</small><div><h3><a class="link" href="vehicle-seat-upholstery.html">Vehicle seat upholstery</a></h3><p>Seat rebuilding, new covers and interior upholstery work.</p></div></div>
   </div>
 </section></div>
 
@@ -719,7 +743,7 @@ html[data-ecw-motion] #material-dialog[open] { animation:none; }
 <div class="dark"><section id="contact">
   <p class="eyebrow">04 / PEOPLE BEHIND THE CRAFT</p>
   <h2>Great spaces start<br>with <em>a conversation.</em></h2>
-  <p>Send us a photo on WhatsApp. Let’s talk about the finish you’d love.</p>
+  <p>Based in Sri Lanka. Send a photo and your town on WhatsApp to check availability and discuss a quote.</p>
   <div class="cta">
     <a id="hotlineCall" href="tel:+94729700833">Call the Hotline</a>
     <a href="mailto:excellentcushionworks@gmail.com">Email us<b>excellentcushionworks@gmail.com</b></a>
@@ -884,8 +908,31 @@ var WA=$("hotlineCall").getAttribute("href").slice("tel:+".length),MAIL="excelle
 function wa(t){return"https://wa.me/"+WA+"?text="+encodeURIComponent(t)}
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function tag(p){var l=p.p.map(function(x){return x.l}),a=l.indexOf("After")>-1,b=l.indexOf("Before")>-1;return a&&b?"Before & after":a?"After":b?"Before":"In progress"}
-$("waHero").href=$("waCta").href=wa("Hello, I’d like to ask about upholstery work.");
-function drawHero(){if(!S.hero)return;var h=$("hero"),im=h.querySelector("img");if(!im){im=document.createElement("img");im.alt="Excellent Cushion Works brand logo";h.prepend(im)}im.src=S.hero;h.style.backgroundImage="none"}
+$("waHero").href=wa("Hello, I’d like an upholstery quote. I’ll attach photos and share my town.");
+$("waCta").href=wa("Hello, I’d like to ask about upholstery work.");
+function drawHero(){
+  var hero = $("hero");
+  var project = S.projects.find(function(item){return item.t === "Carved teak loveseat in green velvet"});
+  var photos = project ? project.p : [];
+  var before = photos.find(function(photo){return photo.l === "Before" && photo.s});
+  var after = photos.find(function(photo){return photo.l === "After" && photo.s});
+  var showComparison = Boolean(before && after);
+  $("hero-comparison").hidden = !showComparison;
+  hero.classList.toggle("hero-brand-fallback", showComparison);
+  if(showComparison){
+    $("beforeShot").src = before.s;
+    $("afterShot").src = after.s;
+  }
+  if(!S.hero)return;
+  var image = hero.querySelector("img");
+  if(!image){
+    image = document.createElement("img");
+    image.alt = "Excellent Cushion Works brand artwork";
+    hero.prepend(image);
+  }
+  image.src = S.hero;
+  hero.style.backgroundImage = "none";
+}
 function projectCategories() {
   return [...new Set([...(S.projectCategories || []), ...S.projects.map(project => project.c)])];
 }
@@ -1638,7 +1685,7 @@ window.addEventListener('pagehide',function(){NT=null;verifiedSite=null;authVers
 window.addEventListener('pageshow',function(e){if(e.persisted)signOutOwner();});
 
 $("more").onclick=function(){visible+=6;draw()};
-var featured=S.projects.find(function(p){return p.t==="Carved teak loveseat in green velvet"});if(featured&&featured.p.length){var before=featured.p.find(function(p){return p.l==="Before"});$("beforeShot").src=(before||featured.p[0]).s;$("afterShot").src=featured.p[0].s;}else{document.querySelector(".transformation").hidden=true;}
+
 // Snapshot is captured before dynamic UI so downloaded edits stay clean.
 var heroImage=$("hero").querySelector("img");if(heroImage){heroImage.loading="eager";heroImage.fetchPriority="high";heroImage.decoding="async";}
 document.querySelectorAll('dialog').forEach(function(d){d.addEventListener('click',function(e){if(e.target===d){if(d.id==='ownerAuth')cancelOwnerSignIn();else d.close();}})});
